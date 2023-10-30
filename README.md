@@ -35,10 +35,19 @@ Once the playbook has run successfully, you can access your Apache server by nav
 ## Common Issues
    If you encounter any issues during the setup and execution of this project, here are some common problems and their solutions:
 
-   Issue: Locale Encoding Error
+   1. Issue: Locale Encoding Error
+      Solution: Set your locale encoding to UTF-8. You can do this by running the following command:
+      ```bash
+         export LC_ALL=C.UTF-8
+         export LANG=C.UTF-8
+      
+   2. Issue: Authentication Error
+      Solution: Make sure to provide the correct SSH private key file path in the apache.yml file. Example: ansible_ssh_private_key_file: "/path/to/your/your_pem_file.pem"
 
-   Solution: Set your locale encoding to UTF-8. You can do this by running the following command:
-   
-```bash
-export LC_ALL=C.UTF-8
-export LANG=C.UTF-8
+Add any other common issues you encountered and their solutions here. 
+
+## References
+   Official Documentation : https://docs.ansible.com/ansible/latest/index.html
+   Blog : https://linuxopsys.com/topics/ansible-playbook-to-install-apache
+   Blog : https://www.freecodecamp.org/news/what-is-ansible/
+
