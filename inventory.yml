@@ -1,0 +1,5 @@
+all:
+  hosts:
+    ansible-anant:
+      ansible_host: 3.7.254.78
+      ansible_user: ubuntu
