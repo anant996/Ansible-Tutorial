@@ -39,6 +39,6 @@ Once the playbook has run successfully, you can access your Apache server by nav
 
    Solution: Set your locale encoding to UTF-8. You can do this by running the following command:
    
-   ```bash
-      export LC_ALL=C.UTF-8
-      export LANG=C.UTF-8
+```bash
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
