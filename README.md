@@ -47,7 +47,8 @@ Once the playbook has run successfully, you can access your Apache server by nav
 Add any other common issues you encountered and their solutions here. 
 
 ## References
-   Official Documentation : https://docs.ansible.com/ansible/latest/index.html
-   Blog : https://linuxopsys.com/topics/ansible-playbook-to-install-apache
-   Blog : https://www.freecodecamp.org/news/what-is-ansible/
+   Official Documentation: https://docs.ansible.com/ansible/latest/index.html<br>
+   Blog: https://linuxopsys.com/topics/ansible-playbook-to-install-apache<br>
+   Blog: https://www.freecodecamp.org/news/what-is-ansible/
+
 
