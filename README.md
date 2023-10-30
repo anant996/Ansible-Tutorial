@@ -47,6 +47,10 @@ Once the playbook has run successfully, you can access your Apache server by nav
 
 Add any other common issues you encountered and their solutions here. 
 
+## Does Ansible work with Windows   
+Yes, Ansible can run on Windows, but it has certain limitations and considerations due to its primarily Unix-based design.<br>
+For detailed installation refer to [TutorialsPoint](https://www.tutorialspoint.com/how-to-install-and-configure-ansible-on-windows).
+
 ## References
    Official Documentation: https://docs.ansible.com/ansible/latest/index.html<br>
    Blog: https://linuxopsys.com/topics/ansible-playbook-to-install-apache<br>
