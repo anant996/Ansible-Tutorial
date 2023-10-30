@@ -20,3 +20,31 @@ Before you begin, ensure you have the following prerequisites:
 
    ```bash
    https://github.com/anant996/Ansible-Tutorial.git
+
+2. **Run the Ansible Playbook:**
+
+   Execute the Ansible playbook to install and manage Apache:
+
+   ```bash
+   ansible-playbook -i inventory.yml apache.yml
+The playbook will install Apache on your EC2 instance.
+
+## Accessing Your Apache Server
+Once the playbook has run successfully, you can access your Apache server by navigating to your EC2 instance's public IP address in your web browser.
+
+## Common Issues
+   If you encounter any issues during the setup and execution of this project, here are some common problems and their solutions:
+
+   Issue: Locale Encoding Error
+
+   Solution: Set your locale encoding to UTF-8. You can do this by running the following command:
+   
+   ```bash
+      export LC_ALL=C.UTF-8
+      export LANG=C.UTF-8
+
+   Issue: Authentication Error
+   Solution: Make sure to provide the correct SSH private key file path in the inventory.yml file. Example: ansible_ssh_private_key_file: "/path/to/your/your_pem_file.pem"
+
+   Add any other common issues you encountered and their solutions here.
+
