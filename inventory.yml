@@ -1,5 +1,6 @@
 all:
   hosts:
-    "your_instance_name":
-      ansible_host: "host-ip"
-      ansible_user: "host-username"
+    "your_instance_name": # Replace with the name or label you want to use for your EC2 instance
+      ansible_host: "host-ip" # Replace with the public IP or DNS name of your EC2 instance
+      ansible_user: "host-username" # Replace with the SSH username for your EC2 instance
+
