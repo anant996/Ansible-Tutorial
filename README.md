@@ -42,9 +42,3 @@ Once the playbook has run successfully, you can access your Apache server by nav
    ```bash
       export LC_ALL=C.UTF-8
       export LANG=C.UTF-8
-
-   Issue: Authentication Error
-   Solution: Make sure to provide the correct SSH private key file path in the inventory.yml file. Example: ansible_ssh_private_key_file: "/path/to/your/your_pem_file.pem"
-
-   Add any other common issues you encountered and their solutions here.
-
