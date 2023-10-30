@@ -1,5 +1,5 @@
 all:
   hosts:
-    ansible-anant:
+    "your_instance_name":
       ansible_host: "host-ip"
       ansible_user: "host-username"
