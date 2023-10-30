@@ -35,14 +35,15 @@ Once the playbook has run successfully, you can access your Apache server by nav
 ## Common Issues
    If you encounter any issues during the setup and execution of this project, here are some common problems and their solutions:
 
-   1. Issue: Locale Encoding Error
-      Solution: Set your locale encoding to UTF-8. You can do this by running the following command:
+   1. Issue: Locale Encoding Error<br>
+      Solution: Set your locale encoding to UTF-8. You can do this by running the following command:<br>
       ```bash
-         export LC_ALL=C.UTF-8
-         export LANG=C.UTF-8
+      export LC_ALL=C.UTF-8
+      export LANG=C.UTF-8
       
-   2. Issue: Authentication Error
-      Solution: Make sure to provide the correct SSH private key file path in the apache.yml file. Example: ansible_ssh_private_key_file: "/path/to/your/your_pem_file.pem"
+   2. Issue: Authentication Error<br>
+      Solution: Make sure to provide the correct SSH private key file path in the apache.yml file.<br>
+      Example: ansible_ssh_private_key_file: "/path/to/your/your_pem_file.pem"<br>
 
 Add any other common issues you encountered and their solutions here. 
 
