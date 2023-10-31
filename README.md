@@ -20,6 +20,7 @@ Before you begin, ensure you have the following prerequisites:
 
    ```bash
    https://github.com/anant996/Ansible-Tutorial.git
+   cd Ansible-Tutorial
 
 2. **Run the Ansible Playbook:**
 
