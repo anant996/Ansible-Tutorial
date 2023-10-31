@@ -47,6 +47,10 @@ Once the playbook has run successfully, you can access your Apache server by nav
 
 Add any other common issues you encountered and their solutions here. 
 
+## Can Ansible run on Windows?
+
+No, Ansible can only manage Windows hosts. Ansible cannot run on a Windows host natively, though it can run under the Windows Subsystem for Linux (WSL).<br>
+For better understanding refer to [Official DOcumentation](https://docs.ansible.com/ansible/latest/os_guide/windows_faq.html#can-ansible-run-on-windows).
 
 ## References
    Official Documentation: https://docs.ansible.com/ansible/latest/index.html<br>
